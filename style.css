@@ -11,6 +11,9 @@ a{
 a:hover{
   color: gray;
 }
+li{
+  list-style: none;
+}
 .card-title{
   margin-bottom: 20px;
 }
@@ -146,6 +149,19 @@ text-decoration: none;
 }
 .switch-button-checkbox + .switch-button-label .switch-button-label-span {
   position: relative;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.footer{
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  background-color: black;
+  color: white;
 }
 @font-face {
   font-family: Arkhip-Regular;
