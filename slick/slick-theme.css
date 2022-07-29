@@ -25,6 +25,7 @@
     position: absolute;
     top: 40%;
     display: block;
+    opacity: 0.75;
 
     width: 20px;
     height: 20px;
@@ -202,4 +203,28 @@
 {
     opacity: .75;
     color: black;
+}
+@media only screen and (max-width: 640px)  {
+    .slick-prev{
+        left: -20px;
+    }
+    .slick-next{
+        right: 50px;
+    }
+}
+@media only screen and (max-width: 600px)  {
+    .slick-prev{
+        left: -10px;
+    }
+    .slick-next{
+        right: 70px;
+    }
+}
+@media only screen and (max-width: 575px)  {
+    .slick-prev{
+        left:0px;
+    }
+    .slick-next{
+        right: 80px;
+    }
 }
